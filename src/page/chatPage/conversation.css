@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#chat-screen .nav-top {
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: black 2px 2px;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(to bottom right, red, rgb(4, 4, 8));
+    line-height: 40px;
+    position: relative;
+}
+
+#displayName {
+    position: absolute;
+    right: 20px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#chat-screen .add-friend-btn {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+#chat-screen .add-friend-btn:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#chat-screen .content {
+    display: flex;
+    height: 100vh;
+    border-right: 1px solid gray;
+}
+
+
+#chat-screen .left,
+.right {
+    width: 20%;
+    text-align: center;
+
+}
+
+#chat-screen .left {
+    border-right: 1px solid #EFEFEF;
+}
+
+#chat-screen .center {
+    width: 60%;
+    text-align: center;
+    border-right: 1px solid #EFEFEF;
+}
+
+#chat-screen .new-convers,
+.first-convers {
+    border-bottom: 1px solid #EFEFEF;
+    height: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#chat-screen .chat-type {
+    width: 60%;
+    position: fixed;
+    bottom: 0px;
+}
+
+#chat-screen .input-chat {
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+    outline-color: rgb(224, 53, 53);
+}
+
+#chat-screen .content .send-btn {
+    font-size: 15px;
+    width: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#chat-screen .send-btn:hover {
+    cursor: pointer;
+}
+
+#chat-screen .fa-right-from-bracket {
+    border-radius: 10px;
+}
+
+#chat-screen .fa-right-from-bracket:hover {
+    cursor: pointer;
+}
